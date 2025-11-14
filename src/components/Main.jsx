@@ -64,8 +64,12 @@ const Main = () => {
           <div className="flex justify-center items-center">
             <div className="relative w-80 h-80">
               <div className="w-full h-full bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full flex items-center justify-center shadow-2xl shadow-indigo-500/30 animate-[float_6s_ease-in-out_infinite]">
-                <div className="w-4/5 h-4/5 rounded-full bg-cover bg-center" style={{backgroundImage: "url('mercuri.jpg')"}}></div>
-              </div>
+  <div 
+    className="w-4/5 h-4/5 rounded-full bg-cover bg-[center_20%]" 
+    style={{ backgroundImage: "url('JOnesProfile.jpg')" }}
+  ></div>
+</div>
+
               <div className="absolute inset-0">
                 <Code className="absolute top-[20%] right-[10%] bg-white p-3 rounded-full shadow-lg text-indigo-500 animate-[float_4s_ease-in-out_infinite]" />
                 <Database className="absolute bottom-[30%] left-[5%] bg-white p-3 rounded-full shadow-lg text-indigo-500 animate-[float_4s_ease-in-out_infinite_1s]" />
